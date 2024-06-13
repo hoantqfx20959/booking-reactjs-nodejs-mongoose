@@ -1,0 +1,9 @@
+.list {
+  width: 95%;
+  /* max-width: 1024px; */
+  margin: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  /* z-index: 1; */
+}

@@ -1,0 +1,60 @@
+.form {
+  margin-top: 1rem;
+}
+
+.imgInput {
+  width: 50%;
+}
+
+.imgInput input {
+  width: 97%;
+}
+
+.imgArr {
+  display: flex;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.imgItem {
+  position: relative;
+}
+
+.imgX {
+  line-height: 0.7;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.imgX:hover,
+imgX.button:active {
+  background: #e7f5ff;
+  border-color: #e7f5ff;
+  color: red;
+}
+
+.imgItem img {
+  width: 189px;
+  height: auto;
+}
+
+.formItem {
+}
+
+.formRow {
+  display: flex;
+  gap: 2rem;
+}
+
+.formCol {
+  flex-basis: 50%;
+}
+
+.formColItem {
+  margin-bottom: 0.7rem;
+  display: flex;
+  flex-direction: column;
+}

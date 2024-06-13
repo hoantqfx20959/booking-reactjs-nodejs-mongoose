@@ -1,0 +1,36 @@
+.list {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+}
+
+.main {
+  flex-basis: 80%;
+}
+
+.nav {
+  display: flex;
+  gap: 1rem;
+}
+
+.navItem {
+  flex-basis: 25%;
+  border: 1px #dee2e6 solid;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 1px rgba(191, 204, 203, 0.2);
+}
+
+.navItem p {
+  font-size: 16px;
+}
+
+.navItemI {
+  display: flex;
+  justify-content: end;
+}
+
+.navItem i {
+  margin: 0.2rem;
+  padding: 0.3rem;
+  border-radius: 5px;
+}
