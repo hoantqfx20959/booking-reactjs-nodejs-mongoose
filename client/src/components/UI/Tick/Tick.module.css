@@ -1,0 +1,9 @@
+.tick {
+  font-size: 12px;
+  font-weight: 600;
+  padding: 0.2rem;
+  background-color: #339af0;
+  color: #fff;
+  border: 1px solid;
+  margin-right: 0.2rem;
+}

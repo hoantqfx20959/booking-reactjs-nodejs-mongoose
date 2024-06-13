@@ -1,0 +1,14 @@
+.sub {
+  height: 10rem;
+  width: 100%;
+  /* max-width: 1024px; */
+  background-color: #339af0;
+  margin: 20px auto 0;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #fff;
+}

@@ -1,0 +1,15 @@
+.sub-entered {
+  height: 2.5rem;
+  width: 15rem;
+  margin-right: 0.5rem;
+  border: #74c0fc;
+  border-radius: 4px;
+}
+
+.sub-button {
+  height: 2.5rem;
+  border: #74c0fc;
+  border-radius: 3px;
+  background-color: #74c0fc;
+  color: #fff;
+}

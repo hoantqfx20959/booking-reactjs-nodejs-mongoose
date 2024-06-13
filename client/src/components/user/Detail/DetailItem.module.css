@@ -1,0 +1,38 @@
+.flex {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+
+.distance {
+  color: #74c0fc;
+}
+
+.price {
+  color: #2f9e44;
+}
+
+.img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+img {
+  width: 19rem;
+  height: 15rem;
+}
+
+.card {
+  padding: 1rem;
+  background-color: #d0ebff;
+}
+
+.button {
+  color: #fff;
+  font-weight: 600;
+  width: 100%;
+  background-color: #74c0fc;
+  border-radius: 5px;
+}

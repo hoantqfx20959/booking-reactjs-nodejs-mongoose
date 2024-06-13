@@ -1,0 +1,149 @@
+/* .list {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+} */
+
+.form {
+  width: 100%;
+}
+
+.listItem {
+  margin-top: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.item {
+  width: 100%;
+}
+
+.property {
+  flex-basis: 75%;
+}
+
+/* .date {
+  flex-basis: 35%;
+} */
+
+.reserveInfo {
+  flex-basis: 65%;
+}
+
+.reserveInfo .input {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.reserveInfo label {
+  font-weight: 600;
+}
+
+.reserveInfo input {
+  height: 2rem;
+}
+
+.reserveInfo input:focus {
+  padding-left: 0.5rem;
+}
+
+.reserveInfo input:valid {
+  padding-left: 0.5rem;
+}
+
+/* .reserveInfo input::placeholder {
+  padding-left: 0.5rem;
+} */
+
+.card {
+  padding: 1rem;
+  background-color: #d0ebff;
+}
+
+.cardButton {
+  color: #fff;
+  font-weight: 600;
+  width: 100%;
+  background-color: #74c0fc;
+  border-radius: 5px;
+}
+
+.button {
+  color: #fff;
+  font-weight: 600;
+  background-color: #74c0fc;
+  border-radius: 5px;
+}
+
+.bill {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bill select {
+  flex-basis: 30%;
+}
+
+.bill button {
+  width: 15rem;
+  height: 3rem;
+}
+
+.billAction {
+  flex-basis: 65%;
+  display: flex;
+}
+
+.reserves {
+  height: 7rem;
+  display: flex;
+  overflow-y: auto;
+  overflow-x: auto;
+  gap: 2rem;
+}
+
+.reserve {
+  object-fit: contain;
+  transition: transform 450ms;
+}
+
+.reserves::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+.reserves::-webkit-scrollbar-track {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+.reserves::-webkit-scrollbar-thumb {
+  background-color: #11171a;
+  border-radius: 10px;
+}
+
+.infor {
+  width: calc(512px - 1rem);
+  display: flex;
+  justify-content: space-between;
+}
+
+.roomNumbers {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.roomNumber {
+  display: flex;
+  flex-direction: column;
+}
+
+.error {
+  margin: auto 1rem;
+  color: red;
+}
