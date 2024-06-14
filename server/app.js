@@ -7,7 +7,7 @@ const jwt = require('jsonwebtoken');
 
 const User = require('./models/user');
 
-const MONGODB_URI = '';
+const MONGODB_URI = 'mongodb+srv://asm2:Hoan1104@cluster0.m0gba0l.mongodb.net/booking';
 
 const app = express();
 
